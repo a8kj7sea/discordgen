@@ -14,5 +14,5 @@ To run the generator, ensure you have Java installed on your system:
 We recommend using the following command:
 
 ```cmd
-java -jar discordgen.jar <amount> <threads-number>
+java -jar discordgen.jar 22 7
 ```
