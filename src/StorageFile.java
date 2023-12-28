@@ -18,7 +18,7 @@ public class StorageFile {
             this.path = System.getProperty("user.dir");
         }
 
-        this.file = new File(path, "links.txt");
+        this.file = new File(this.path, "links.txt");
         this.file.getParentFile().mkdirs();
 
         if (!file.exists()) {
